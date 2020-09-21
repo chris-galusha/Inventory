@@ -1,0 +1,74 @@
+.sql-select {
+  max-height: 75vh;
+  overflow-y: scroll;
+}
+
+.sql-file {
+  .hr {
+    margin-top: 0.5em;
+  }
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+.admin-buttons {
+  a {
+    margin-bottom: 1em;
+  }
+}
+
+.restore {
+  nav {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    border-radius: 1em;
+    margin-bottom: 1em;
+    .pagination {
+      margin-top: 0;
+      margin-left: 1em;
+      margin-right: 1em;
+      .page-item {
+        &:not(:last-child) {
+          border-right: 1px solid lightgray;
+        }
+        &.active {
+          background-color: $cyan2;
+        }
+        &:hover {
+          background-color: lightgray;
+        }
+        color: black;
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+        font-size: 1.5em;
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .field {
+    .label {
+      &:hover {
+        background-color: lightgray;
+      }
+      padding: 0.5em;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      white-space: nowrap;
+      input {
+        margin-right: 1em;
+      }
+      .button {
+        margin-left: 1em;
+        &[name=item-delete] {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

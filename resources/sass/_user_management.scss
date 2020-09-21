@@ -1,0 +1,42 @@
+.role-icon {
+  height: 1em;
+  width: 1em;
+  border-radius: 2em;
+  border: 1px solid black;
+  margin-right: 0.25em;
+  &.admin {
+    background-color: $cyan;
+  }
+  &.normal {
+    background-color: $green;
+  }
+}
+
+.users {
+  margin-top: 1em;
+  .legend {
+    width: max-content;
+    border: 1px solid black;
+    border-radius: 0.75em;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+    .label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+      margin-right: 1em;
+    }
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+}

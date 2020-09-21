@@ -1,0 +1,99 @@
+input[type=date]::-webkit-inner-spin-button, input[type=datetime-local]::-webkit-inner-spin-button {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+input[type=date]::-webkit-calendar-picker-indicator, input[type=datetime-local]::-webkit-calendar-picker-indicator {
+  background-image: url(/img/calendar_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: rgba(0, 0, 0, 0);
+}
+
+// input[type=date]::-webkit-clear-button {
+//   display: none;
+// }
+
+.form {
+  &.filter {
+    .filter-fields {
+      max-height: 70vh;
+      overflow-y: scroll;
+    }
+    .options {
+      .field {
+        display: flex;
+        .label {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          input {
+            margin-right: 0.5em;
+          }
+        }
+      }
+    }
+    .field {
+      display: flex;
+      .label {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 90%;
+        p {
+          margin: 0;
+        }
+        .input {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          display: flex;
+          width: max-content;
+        }
+        .bound-group {
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          display: flex;
+          align-items: center;
+          .input {
+            width: auto;
+            &:first-child {
+              margin-right: 1em;
+            }
+            &:last-child {
+              margin-left: 1em;
+            }
+          }
+        }
+      }
+      .add-remove-buttons {
+        margin: 1em;
+        flex-basis: 10%;
+        display: flex;
+        justify-content: center;
+        padding-top: 0.25em;
+        .button {
+          width: 2em;
+          &:first-child {
+            margin-right: 0.25em;
+          }
+        }
+      }
+      .search-modifiers {
+        div {
+          display: flex;
+          margin-top: 0.25em;
+          input {
+            margin-right: 0.25em;
+            &:not(:first-child) {
+              margin-left: 0.5em;
+            }
+          }
+        }
+      }
+    }
+    hr {
+      border-color: black;
+      background-color: black;
+      margin-bottom: 1em;
+    }
+  }
+}

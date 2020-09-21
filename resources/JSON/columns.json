@@ -1,0 +1,172 @@
+{
+    "description": {
+        "displayName": "Description",
+        "type": "string",
+        "display": 1,
+        "protected": 0,
+        "required": 1
+    },
+    "location": {
+        "values": [
+            "Lincoln",
+            "Omaha",
+            "Kearney"
+        ],
+        "displayName": "Location",
+        "type": "dropdown",
+        "display": 1,
+        "protected": 0,
+        "required": 0
+    },
+    "date_acquired": {
+        "displayName": "Date Acquired",
+        "type": "date",
+        "display": 1,
+        "protected": 0,
+        "required": 0
+    },
+    "date_in_service": {
+        "displayName": "Date In Service",
+        "type": "date",
+        "display": 0,
+        "protected": 0,
+        "required": 0
+    },
+    "notes": {
+        "displayName": "Notes",
+        "type": "textarea",
+        "display": 0,
+        "protected": 0,
+        "values": [],
+        "required": 0
+    },
+    "id": {
+        "displayName": "ID",
+        "type": "bigIncrements",
+        "display": 0,
+        "protected": 1,
+        "required": 1
+    },
+    "model_number": {
+        "displayName": "Model Number",
+        "type": "string",
+        "display": 1,
+        "protected": 0,
+        "required": 0
+    },
+    "created_at": {
+        "displayName": "Created At",
+        "type": "timestamp",
+        "display": 0,
+        "protected": 1,
+        "required": 1
+    },
+    "updated_at": {
+        "displayName": "Updated At",
+        "type": "timestamp",
+        "display": 0,
+        "protected": 1,
+        "required": 1
+    },
+    "manufacturer": {
+        "displayName": "Manufacturer",
+        "type": "string",
+        "display": 0,
+        "protected": 0,
+        "values": [],
+        "required": 0
+    },
+    "inventory_number": {
+        "displayName": "Inventory Number",
+        "type": "integer",
+        "display": 1,
+        "protected": 0,
+        "required": 0
+    },
+    "serial_number": {
+        "displayName": "Serial Number",
+        "type": "string",
+        "display": 1,
+        "protected": 0,
+        "required": 0
+    },
+    "owner": {
+        "displayName": "Owner",
+        "type": "string",
+        "display": 0,
+        "protected": 0,
+        "required": 0
+    },
+    "department": {
+        "displayName": "Department",
+        "type": "string",
+        "display": 1,
+        "protected": 0,
+        "required": 0
+    },
+    "date_manufactured": {
+        "displayName": "Date Manufactured",
+        "type": "date",
+        "display": 0,
+        "protected": 0,
+        "required": 0
+    },
+    "status": {
+        "displayName": "Status",
+        "values": [
+            "Assigned",
+            "Decommissioned"
+        ],
+        "type": "dropdown",
+        "display": 1,
+        "protected": 0,
+        "required": 0
+    },
+    "deleted_at": {
+        "display": 0,
+        "displayName": "Deleted At",
+        "protected": 1,
+        "type": "timestamp",
+        "required": 1
+    },
+    "last_inventoried": {
+        "display": 1,
+        "displayName": "Last Inventoried",
+        "protected": 0,
+        "type": "date",
+        "required": 0,
+        "values": []
+    },
+    "date_decommissioned": {
+        "display": "1",
+        "displayName": "Date Decommissioned",
+        "protected": 0,
+        "type": "date",
+        "required": 0,
+        "values": []
+    },
+    "reason_for_decommission": {
+        "display": "0",
+        "displayName": "Reason for Decommissioning",
+        "protected": 0,
+        "type": "string",
+        "required": 0,
+        "values": []
+    },
+    "fe_id": {
+        "display": "0",
+        "displayName": "FE ID",
+        "protected": 1,
+        "type": "string",
+        "required": 0,
+        "values": []
+    },
+    "quantity": {
+        "display": "0",
+        "displayName": "Quantity",
+        "protected": 0,
+        "type": "string",
+        "required": 0,
+        "values": []
+    }
+}

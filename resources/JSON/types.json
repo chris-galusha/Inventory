@@ -1,0 +1,68 @@
+{
+  "string": {
+    "HTMLType": "text",
+    "SQLType": "string",
+    "displayName": "Text",
+    "protected": false
+  },
+  "date": {
+    "HTMLType": "date",
+    "SQLType": "date",
+    "displayName": "Date",
+    "protected": false
+  },
+  "dateTime": {
+    "HTMLType": "datetime-local",
+    "SQLType": "dateTime",
+    "displayName": "Date and Time",
+    "protected": false
+  },
+  "timestamp": {
+    "HTMLType": "datetime-local",
+    "SQLType": "timestamp",
+    "displayName": "Timestamp",
+    "protected": true
+  },
+  "textarea": {
+    "HTMLType": "textarea",
+    "SQLType": "text",
+    "displayName": "Text Area",
+    "protected": false
+  },
+  "dropdown": {
+    "HTMLType": "dropdown",
+    "SQLType": "string",
+    "displayName": "Dropdown",
+    "protected": false
+  },
+  "integer": {
+    "HTMLType": "number",
+    "SQLType": "integer",
+    "displayName": "Number",
+    "protected": false
+  },
+  "bigIncrements": {
+    "HTMLType": "number",
+    "SQLType": "bigIncrements",
+    "displayName": "Auto Incrementing",
+    "protected": true
+  },
+  "boolean": {
+    "HTMLType": "checkbox",
+    "SQLType": "boolean",
+    "displayName": "Checkbox (Boolean)",
+    "protected": false
+  },
+  "float": {
+    "HTMLType": "number",
+    "SQLType": "float",
+    "displayName": "Number w/ Decimals",
+    "protected": false
+  },
+  "ipAddress": {
+    "HTMLType": "text",
+    "SQLType": "string",
+    "displayName": "IP Address",
+    "protected": false
+  }
+}

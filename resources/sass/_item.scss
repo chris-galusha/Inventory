@@ -1,0 +1,22 @@
+.item-show {
+  max-height: 75vh;
+  overflow-y: scroll;
+  hr {
+    margin: 0.5em;
+  }
+  & > div {
+    &.flex-column {
+      flex-direction: column;
+    }
+    padding: 0.5em;
+    display: flex;
+    .label {
+      margin-right: 1em;
+    }
+    span {
+      &.box {
+        width: 85%;
+      }
+    }
+  }
+}
